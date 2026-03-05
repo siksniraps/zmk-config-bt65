@@ -32,7 +32,7 @@
     raise {
         // --------------------------------------------------------------------------------------------------
         // |GRAVE| F1  | F2  | F3  | F4  | F5  | F6  | F7  | F8  | F9  | F10 | F11 | F12 |BL_TOG|RGB_TOG|HOME|
-        // | TAB  |  Q  |  W  |  E  | HUI | HUD |  Y  |  U  |  I  |  O  |  P  | SLCK|  ]  |  RESET   | PSCRN|
+        // | TAB  |  Q  |  W  |  E  | HUI | HUD |  Y  |  U  |  I  |  O  |  P  | SLCK |  ]  |  RESET   | PSCRN|
         // | CAPS  |  A  |  S  |  D  | BRI | BRD |  H  |  J  |  K  |  L  |  ;  |  '  |      BOOT     | P_BRK|
         // |SHIFT| NONE|VOLDN|VOLUP| MUTE|BLINC|BLDEC|  N  |  M  |  ,  |  .  |  /  |SHIFT| NONE|  UP | INS  |
         // | BT_PRV| BT_NXT|  ALT  |            SPACE                 | ALT |  1  | CTRL| LEFT| DOWN |BT_CLR|
