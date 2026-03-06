@@ -12,9 +12,15 @@
   };
 
   behaviors {
-        mouse_wheel: mouse_wheel {
-            compatible = "zmk,behavior-sensor-rotate-var";
+        mwh: mouse_wheel {
+            compatible = "zmk,behavior-mouse-wheel";
             label = "MOUSE_WHEEL";
+            #binding-cells = <1>;
+        };
+
+        mouse_wheel: mouse_wheel_rotate {
+            compatible = "zmk,behavior-sensor-rotate-var";
+            label = "MOUSE_WHEEL_ROTATE";
             #sensor-binding-cells = <2>;
             bindings = <&mwh>, <&mwh>;
         };
